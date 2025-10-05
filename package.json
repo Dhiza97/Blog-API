@@ -1,0 +1,24 @@
+{
+  "name": "blog-api",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Joseph Garba",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "NODE_ENV=test jest",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jest": "^29.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb-memory-server": "^10.2.2",
+    "mongoose": "^8.19.0",
+    "supertest": "^7.1.4"
+  }
+}
